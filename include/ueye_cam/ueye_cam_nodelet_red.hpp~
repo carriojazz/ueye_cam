@@ -60,6 +60,7 @@
 #include <ueye_cam/ueye_cam_driver.hpp>
 #include <cv_bridge/cv_bridge.h>
 #include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 
 namespace ueye_cam {
 

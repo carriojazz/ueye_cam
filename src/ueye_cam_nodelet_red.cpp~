@@ -1049,7 +1049,7 @@ void UEyeCamNodeletRed::frameGrabLoop() {
         std::vector<cv::Mat>ch;
         cv::split(img,ch);
         cv::Mat red = ch[2]-ch[1];
-        cv::cvtColor(red,img,CV_GRAY2BGR);
+        cv::cvtColor(red,red,CV_GRAY2BGR);
 
         cv_bridge::CvImage out_msg;
         out_msg.header   = img_msg_ptr->header; // Same timestamp and tf frame as input image
