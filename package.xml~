@@ -1,5 +1,5 @@
 <package>
-  <name>ueye_cam</name>
+  <name>ueye_cam_color_nodelets</name>
   <version>1.0.15</version>
   <description>
     A ROS nodelet and node that wraps the driver API for UEye cameras

@@ -3,3 +3,8 @@
     <description>Driver wrapper nodelet for UEye cameras by IDS Imaging Development Systems GMBH.</description>
   </class>
 </library>
+<library path="lib/libueye_cam_nodelet_red">
+  <class name="ueye_cam/ueye_cam_nodelet_red" type="ueye_cam::UEyeCamNodeletRed" base_class_type="nodelet::Nodelet">
+    <description>Driver wrapper nodelet for UEye cameras by IDS Imaging Development Systems GMBH.</description>
+  </class>
+</library>
